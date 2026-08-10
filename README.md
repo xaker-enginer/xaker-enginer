@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" alt="Dmitry Prokofev — XAKER — Robotics Engineer" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=600&lines=Ground+Control+Systems+for+UGVs;Наземные+станции+управления+дронами;Python+·+MAVLink+·+CRSF+·+SBC;Robotics+Engineer" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=600&lines=Ground+Control+Systems+for+UGVs;%D0%9D%D0%B0%D0%B7%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5+%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8+%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%B4%D1%80%D0%BE%D0%BD%D0%B0%D0%BC%D0%B8;Python+%C2%B7+MAVLink+%C2%B7+CRSF+%C2%B7+SBC;Robotics+Engineer" alt="Typing SVG"/>
 
 </div>
 
@@ -37,7 +37,7 @@ class RoboticsEngineer:
 <div align="center">
 
 <a href="https://github.com/xaker-enginer/roverlink">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=xaker-enginer&repo=roverlink&theme=chartreuse-dark&bg_color=0d1117&border_color=22c55e&title_color=22c55e&icon_color=22c55e" alt="RoverLink"/>
+<img src="./assets/roverlink-banner.svg" alt="RoverLink — Ground Control Station for UGVs" width="100%"/>
 </a>
 
 </div>
