@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Dmitry Prokofev — XAKER — Robotics Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0f0a"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2a1c" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="sweep" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="260" fill="url(#bg)"/>
+  <rect width="1000" height="260" fill="url(#grid)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#22c55e" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M 14 34 L 14 14 L 34 14"/>
+    <path d="M 966 14 L 986 14 L 986 34"/>
+    <path d="M 986 226 L 986 246 L 966 246"/>
+    <path d="M 34 246 L 14 246 L 14 226"/>
+  </g>
+
+  <!-- radar -->
+  <g transform="translate(850,130)">
+    <circle r="90" fill="none" stroke="#1f3d26" stroke-width="1.5"/>
+    <circle r="62" fill="none" stroke="#1f3d26" stroke-width="1.2"/>
+    <circle r="34" fill="none" stroke="#1f3d26" stroke-width="1"/>
+    <line x1="-90" y1="0" x2="90" y2="0" stroke="#1f3d26" stroke-width="1"/>
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="#1f3d26" stroke-width="1"/>
+    <g>
+      <path d="M 0 0 L 90 0 A 90 90 0 0 0 63.6 -63.6 Z" fill="url(#sweep)"/>
+      <line x1="0" y1="0" x2="90" y2="0" stroke="#22c55e" stroke-width="1.5" opacity="0.8"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <circle cx="38" cy="-24" r="3.5" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.15;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-52" cy="30" r="3" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- rover silhouette -->
+  <g transform="translate(560,168)" stroke="#3fae5a" stroke-width="2.5" fill="none">
+    <rect x="0" y="0" width="120" height="34" rx="6"/>
+    <circle cx="22" cy="44" r="14"/>
+    <circle cx="60" cy="44" r="14"/>
+    <circle cx="98" cy="44" r="14"/>
+    <circle cx="22" cy="44" r="4" fill="#3fae5a" stroke="none"/>
+    <circle cx="60" cy="44" r="4" fill="#3fae5a" stroke="none"/>
+    <circle cx="98" cy="44" r="4" fill="#3fae5a" stroke="none"/>
+    <line x1="60" y1="0" x2="60" y2="-24"/>
+    <circle cx="60" cy="-28" r="4" fill="#22c55e" stroke="none">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 44 -34 A 22 22 0 0 1 76 -34" stroke="#22c55e" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 36 -40 A 32 32 0 0 1 84 -40" stroke="#22c55e" stroke-width="1.5" opacity="0.35"/>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Courier New', Courier, monospace">
+    <text x="60" y="86" font-size="16" fill="#4ade80" letter-spacing="4">// GROUND CONTROL. UNMANNED SYSTEMS.</text>
+    <text x="58" y="138" font-size="44" font-weight="bold" fill="#e6edf3" letter-spacing="2">DMITRY PROKOFEV</text>
+    <text x="60" y="176" font-size="22" fill="#22c55e" letter-spacing="6">[ XAKER ]  ROBOTICS ENGINEER</text>
+    <text x="60" y="212" font-size="14" fill="#7d8590" letter-spacing="2">PYTHON · MAVLINK · CRSF · SBC · RTSP
+      <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- status line -->
+  <g font-family="'Courier New', Courier, monospace" font-size="12" fill="#22c55e">
+    <text x="60" y="240" letter-spacing="1">SYS: ONLINE</text>
+    <circle cx="150" cy="236" r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="170" y="240" letter-spacing="1" fill="#7d8590">LINK: SECURE</text>
+    <text x="290" y="240" letter-spacing="1" fill="#7d8590">MODE: AUTONOMOUS</text>
+  </g>
+</svg>
