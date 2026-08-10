@@ -92,8 +92,13 @@ class RoboticsEngineer:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=xaker-enginer&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&border_color=22c55e&title_color=22c55e&icon_color=22c55e&text_color=e6edf3&hide_border=false" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xaker-enginer&layout=compact&theme=chartreuse-dark&bg_color=0d1117&border_color=22c55e&title_color=22c55e&text_color=e6edf3" alt="Top languages"/>
+![Followers](https://img.shields.io/github/followers/xaker-enginer?style=for-the-badge&logo=github&logoColor=22c55e&label=FOLLOWERS&labelColor=161b22&color=22c55e)
+![Stars](https://img.shields.io/github/stars/xaker-enginer/roverlink?style=for-the-badge&logo=github&logoColor=f59e0b&label=ROVERLINK%20STARS&labelColor=161b22&color=f59e0b)
+![Top language](https://img.shields.io/github/languages/top/xaker-enginer/roverlink?style=for-the-badge&logo=python&logoColor=4ade80&label=CORE&labelColor=161b22&color=4ade80)
+
+![Last commit](https://img.shields.io/github/last-commit/xaker-enginer/roverlink?style=for-the-badge&label=LAST%20COMMIT&labelColor=161b22&color=22c55e)
+![Commit activity](https://img.shields.io/github/commit-activity/m/xaker-enginer/roverlink?style=for-the-badge&label=COMMITS%2FMONTH&labelColor=161b22&color=22c55e)
+![Repo size](https://img.shields.io/github/repo-size/xaker-enginer/roverlink?style=for-the-badge&label=PAYLOAD&labelColor=161b22&color=4ade80)
 
 <img src="https://streak-stats.demolab.com?user=xaker-enginer&theme=dark&background=0d1117&border=22c55e&ring=22c55e&fire=f59e0b&currStreakLabel=22c55e" alt="GitHub streak"/>
 
