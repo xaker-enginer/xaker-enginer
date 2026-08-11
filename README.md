@@ -108,7 +108,7 @@ class RoboticsEngineer:
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/TELEGRAM-@drmitry__haker-0d1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=161b22&color=26A5E4)](https://t.me/drmitry_haker)
+[![Telegram](https://img.shields.io/badge/TELEGRAM-@dmitry__haker-0d1117?style=for-the-badge&logo=telegram&logoColor=26A5E4&labelColor=161b22&color=26A5E4)](https://t.me/dmitry_haker)
 [![Email](https://img.shields.io/badge/EMAIL-dmitry@hauger--it.com-0d1117?style=for-the-badge&logo=gmail&logoColor=f59e0b&labelColor=161b22&color=f59e0b)](mailto:dmitry@hauger-it.com)
 
 <br/>
