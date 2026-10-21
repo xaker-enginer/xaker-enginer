@@ -6,6 +6,18 @@
 
 </div>
 
+## Проекты HAUGER IT
+
+| Проект | Публичная витрина на GitHub | Сайт | Статус |
+|---|---|---|---|
+| **RoverLink** — станция на наземной машине | [Открыть RoverLink](https://github.com/xaker-enginer/roverlink) | [hauger-it.com/roverlink](https://hauger-it.com/roverlink/) | ТП-34 внедрён, испытания прошли успешно |
+| **RoverLink НСУ** — программа оператора для Windows | [Описание НСУ](https://github.com/xaker-enginer/roverlink/blob/main/docs/nsu.md) | [hauger-it.com/nsu](https://hauger-it.com/nsu/) | 0.1.0-beta2 |
+| **GCS-G** — наземная станция БПЛА | [Открыть GCS-G](https://github.com/xaker-enginer/gcs-g) | [hauger-it.com/gcs-g](https://hauger-it.com/gcs-g/) | Стендовая разработка, 0.7.4-dev |
+| **Рельеф** — карты, высоты и радиолинии | [Открыть Рельеф](https://github.com/xaker-enginer/relief) | [hauger-it.com/relief](https://hauger-it.com/relief/) | Нативные Android и iOS, beta13 |
+
+НСУ — отдельный проект; его публичное описание пока размещено в витрине RoverLink.
+Исходники НСУ, GCS-G и нативного «Рельефа» хранятся в закрытых репозиториях.
+
 ```
 ┌──────────────────────────────────────────────────────────────┐
 │  > whoami                                                    │
