@@ -42,22 +42,56 @@ class RoboticsEngineer:
 
 </div>
 
-### 🛰 RoverLink — Ground Control Station for UGVs
+### RoverLink — бортовая станция наземной машины
 
-**EN** — A ground control station for unmanned ground vehicles running on single-board computers. Two operational modes: a virtual CRSF-based flight controller for ESP32-equipped machines, and a transparent MAVLink USB relay for full flight controllers. Unified codebase across three SBC platforms. Web control panel, real-time telemetry, RTSP video pipeline, ZeroTier remote access, Mission Planner integration, failsafe logic.
+Связывает Mission Planner, камеры и систему управления машины. Raspberry Pi
+и Radxa ROCK 5C, веб-панель, RTSP-видео, диагностика и удалённая связь через ZeroTier.
 
-**RU** — Наземная станция управления беспилотной машиной на одноплатном компьютере. Два режима работы: виртуальный полётный контроллер на базе CRSF для машин с ESP32 и прозрачный MAVLink USB-ретранслятор для полноценных полётных контроллеров. Единая кодовая база для трёх платформ. Веб-панель управления, телеметрия в реальном времени, видеотракт RTSP, удалённый доступ через ZeroTier, интеграция с Mission Planner, отработка failsafe.
+**Три платформы и четыре режима:** Богомол B5 без полётного контроллера,
+Богомол B5 с полётным контроллером, Антилопа 4×4 и ТП-34.
+**ТП-34 внедрён; испытания прошли успешно.** Для него развивается отдельная
+ветка с микшером дневных, ночных и задних камер и аппаратным кодированием видео.
 
-<div align="center">
+[Публичная витрина RoverLink](https://github.com/xaker-enginer/roverlink) ·
+[Проект на сайте](https://hauger-it.com/roverlink/)
 
-[![Repository](https://img.shields.io/badge/REPOSITORY-roverlink-0d1117?style=for-the-badge&logo=github&logoColor=22c55e&labelColor=161b22&color=22c55e)](https://github.com/xaker-enginer/roverlink)
-[![License](https://img.shields.io/badge/LICENSE-GPL--3.0-0d1117?style=for-the-badge&logo=gnu&logoColor=f59e0b&labelColor=161b22&color=f59e0b)](https://github.com/xaker-enginer/roverlink/blob/main/LICENSE)
-![Version](https://img.shields.io/badge/CORE-v2.2-0d1117?style=for-the-badge&labelColor=161b22&color=4ade80)
+Основная разработка хранится в приватном репозитории. Специализированные
+ветки поставляются отдельно; номер бета-сборки не означает новый стабильный релиз.
 
-</div>
+## Другие проекты HAUGER IT
 
-> ⚙️ **EN:** Core development happens in a private R&D repository; the open-source core is published under GPL-3.0 with a commercial branch offering extended per-device functionality.
-> **RU:** Основная разработка ведётся в закрытом dev-репозитории; открытое ядро публикуется под GPL-3.0, коммерческая ветка даёт расширенную функциональность с активацией на устройство.
+### RoverLink НСУ — приложение оператора для Windows
+
+Отдельный проект поста управления: поиск станции, RTSP H.264/H.265,
+выбор и калибровка HID-пульта, назначение каналов и передача MAVLink.
+Видеокомпоненты входят в автономный установщик.
+
+**0.1.0-beta2:** программные проверки выполнены; проверка с физическим
+пультом и машиной ещё предстоит. Исходники приватные.
+
+[Возможности и статус НСУ](https://github.com/xaker-enginer/roverlink/blob/main/docs/nsu.md)
+
+### GCS-G — наземная станция для БПЛА
+
+Raspberry Pi 5, веб-панель, RC/CRSF через Pico, управление видеоприёмником,
+USB-захват и RTSP H.264. Сканер 40 каналов для совместимого приёмного тракта.
+
+**0.7.4-dev, стендовая разработка.** Подтверждены отдельные проверки
+управления и видео; полётные испытания и проверка failsafe реального борта
+не объявляются завершёнными. Исходники приватные.
+
+[Публичная витрина GCS-G](https://github.com/xaker-enginer/gcs-g)
+
+### Рельеф — карты, высоты и радиолинии
+
+Нативные Android и iOS: офлайн-карты и рельеф, профиль радиолинии и зона
+Френеля, свои точки и маршруты, координаты СК-42 и WGS-84, обмен GPX/KML,
+управление ротатором мачты по Wi-Fi.
+
+**beta13:** Android — основная платформа; iOS — нативное приложение с
+установкой подписанного IPA. Старая веб-версия заморожена. Исходники приватные.
+
+[Публичная витрина Рельефа](https://github.com/xaker-enginer/relief)
 
 ## `▌ TECH STACK // СТЕК`
 

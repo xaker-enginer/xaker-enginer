@@ -57,7 +57,7 @@
   <g font-family="'Courier New', Courier, monospace">
     <rect x="64" y="258" width="290" height="38" rx="6" fill="#22c55e"/>
     <text x="209" y="283" font-size="17" font-weight="bold" fill="#06120a" text-anchor="middle" letter-spacing="2">&gt; OPEN REPOSITORY_</text>
-    <text x="380" y="283" font-size="14" fill="#7d8590" letter-spacing="1">GPL-3.0 · v2.2 · Python 3.11+</text>
+    <text x="380" y="283" font-size="14" fill="#7d8590" letter-spacing="1">Богомол · Антилопа · ТП-34</text>
   </g>
 
   <!-- rover + radar scene right -->
